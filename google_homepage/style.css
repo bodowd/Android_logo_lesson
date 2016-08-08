@@ -4,20 +4,22 @@
   top: 10em;
 }
 
-#Search_Box{
+input{
   position:relative;
-  height:30px;
-  width:600px;
   top:350px;
-  margin:50px auto;
-  border: 1px solid gray;
-  -moz-appearance: none;
+  right:-280px;
+  width:600px;
+  height:25px;
+  margin:50px;
+  border:1px solid rgb(220, 220, 220);
 }
+
+
 
 ul {
   list-style-type:none;
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 
 li a {
@@ -25,7 +27,7 @@ li a {
   font-size:13px;
   color: #000;
   text-decoration: none;
-  line-height:24px;
+  line-height:10px;
   float:right;
   display:inline-block;
   width:60px;
