@@ -1,0 +1,36 @@
+#Google {
+  position: absolute;
+  right:20em;
+  top: 10em;
+}
+
+#Search_Box{
+  position:relative;
+  height:30px;
+  width:600px;
+  top:350px;
+  margin:50px auto;
+  border: 1px solid gray;
+  -moz-appearance: none;
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  font-family:arial, sans-serif;
+  font-size:13px;
+  color: #000;
+  text-decoration: none;
+  line-height:24px;
+  float:right;
+  display:inline-block;
+  width:60px;
+}
+
+li a:hover{
+  text-decoration: underline;
+}
