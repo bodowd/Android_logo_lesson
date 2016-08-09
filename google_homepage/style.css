@@ -14,20 +14,18 @@ input{
   border:1px solid rgb(220, 220, 220);
 }
 
-
-
 ul {
   list-style-type:none;
   margin:0;
   padding:0;
 }
 
-li a {
+.Top_right_navbar {
   font-family:arial, sans-serif;
   font-size:13px;
   color: #000;
   text-decoration: none;
-  line-height:10px;
+  line-height: 28px;
   float:right;
   display:inline-block;
   width:60px;
@@ -35,4 +33,25 @@ li a {
 
 li a:hover{
   text-decoration: underline;
+}
+
+#Apps_Icon{
+  background-image:
+    url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+  /* background-position tells it where to look on the reference sheet of icons, which
+  has lots icons on the page
+  width and height places a box around the icon we want*/
+  background-position: -69px -854px;
+  width:30px;
+  height:30px;
+  margin: 0 5px 0 5px;
+
+}
+
+#Alerts {
+  background-image:url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/style/../images/sprite.png);
+  background-position: -69px -69px;
+  width:30px;
+  height:30px;
+  margin: 0 5px 0 5px;
 }
